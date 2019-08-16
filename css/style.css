@@ -1,0 +1,113 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.container {
+  width: 375px;
+  margin: auto;
+}
+
+.nav_bar {
+  background-color: #373F51;
+  height: 43px;
+}
+
+.status_bar {
+  display: block;
+}
+
+.map {
+  display: block;
+  width: 100%;
+}
+
+.nav_back {
+  float: left;
+  width: 25%;
+}
+
+.arrow-left {
+  color: #ffffff;
+  padding-top: 15px;
+  padding-left: 11px;
+  float: left;
+}
+
+.arrow {
+  width: 5%;
+  padding-top: 23px;
+  padding-right: 30px;
+  float: right;
+}
+
+.arrow_down {
+  width: 5%;
+  float: right;
+}
+
+.fa {
+  text-align: right;
+}
+
+.nav_back_text {
+  color: #ffffff;
+  float: left;
+  padding-left: 4px;
+  line-height: 43px;
+}
+
+.Stop_name {
+  color: #ffffff;
+  float: left;
+  line-height: 43px;
+  text-align: center;
+  width: 50%;
+  font-weight: bold;
+}
+
+.Done {
+  color: #ffffff;
+  line-height: 43px;
+  float: right;
+  width: 25%;
+  text-align: right;
+  padding-right: 16px;
+}
+
+.route {
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: thin;
+  height: 60px;
+  width: 95%;
+  margin-left: auto;
+}
+
+.category {
+  background-color: #D8DBE2;
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: thin;
+  padding-left: 3%;
+  height: 50px;
+}
+
+.content {
+  width: 90%;
+  display: inline-block;
+  line-height: 22px;
+  padding-top: 8px;
+}
+
+h1 {
+  width: 90%;
+  display: inline-block;
+  line-height: 22px;
+  padding-top: 14px;
+}
